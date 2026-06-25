@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 liquipedia —— 站点介绍与可信说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+      background: #f7f8fa;
+      color: #1e242d;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* hero */
+    .hero {
+      padding: 80px 0 48px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #111;
+      margin-bottom: 20px;
+    }
+
+    .hero .tagline {
+      font-size: 1.125rem;
+      color: #4e5a6b;
+      max-width: 560px;
+      margin: 0 auto;
+      border-bottom: 1px solid #e4e7ed;
+      padding-bottom: 32px;
+    }
+
+    .hero .tagline a {
+      color: #1e6b9b;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .hero .tagline a:hover {
+      border-bottom-color: #1e6b9b;
+    }
+
+    /* sections */
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-bottom: 16px;
+      color: #1f2a3a;
+      letter-spacing: -0.01em;
+    }
+
+    p {
+      margin-bottom: 1em;
+      color: #2c3a4b;
+      font-size: 1rem;
+    }
+
+    .lead {
+      font-size: 1.05rem;
+    }
+
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 24px 0;
+    }
+
+    .card {
+      flex: 1 1 200px;
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 24px 20px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+      border: 1px solid #eef0f4;
+      transition: box-shadow 0.2s;
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #1f2a3a;
+    }
+
+    .card p {
+      font-size: 0.925rem;
+      color: #4a5a6e;
+      margin-bottom: 0;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #e4e7ed;
+      padding: 16px 0;
+    }
+
+    .faq-item:first-of-type {
+      border-top: 1px solid #e4e7ed;
+    }
+
+    .faq-q {
+      font-weight: 500;
+      color: #1f2a3a;
+      margin-bottom: 4px;
+      font-size: 1.025rem;
+    }
+
+    .faq-a {
+      color: #4a5a6e;
+      font-size: 0.95rem;
+    }
+
+    .footer-links {
+      padding: 32px 0 56px;
+      border-top: 1px solid #e4e7ed;
+      margin-top: 16px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #6c7a8a;
+    }
+
+    .footer-links a {
+      color: #1e6b9b;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    .footer-links a:hover {
+      border-bottom-color: #1e6b9b;
+    }
+
+    .inline-link {
+      color: #1e6b9b;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .inline-link:hover {
+      border-bottom-color: #1e6b9b;
+    }
+
+    /* responsive */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2rem;
+      }
+      .hero {
+        padding: 48px 0 32px;
+      }
+      .card-grid {
+        flex-direction: column;
+      }
+      .page {
+        padding: 0 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <!-- hero -->
+    <div class="hero">
+      <h1>关于 liquipedia</h1>
+      <div class="tagline">
+        一份面向电子竞技与游戏社区的开放资料库 —— 内容公开、持续迭代。
+        本文带你了解 <a href="https://space-liquipedia.com">liquipedia</a> 的定位与可信基础。
+      </div>
+    </div>
+
+    <!-- 介绍与可信说明 -->
+    <section>
+      <h2>站点定位与编辑原则</h2>
+      <p class="lead">
+        liquipedia 并非官方资料站，而是一个由社区志愿者维护的维基式平台。其内容覆盖大量游戏项目、选手、赛事及版本记录，所有贡献均需遵循引用来源与中立表述的规范。平台本身不生产独家数据，而是对公开信息进行梳理、交叉验证与结构化呈现。
+      </p>
+      <p>
+        与很多爱好者维基不同，liquipedia 在编辑历史、讨论页与引用格式上有一套明确的规则。每条修改都留有记录，争议内容会通过讨论达成共识。这种机制在很大程度上保证了信息的可追溯性，也让查阅者能够自行判断内容可靠程度。
+      </p>
+    </section>
+
+    <!-- 优势区：用卡片展示特点 -->
+    <section>
+      <h2>为什么值得参考</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>引用优先</h3>
+          <p>每项数据尽量附带可查证的外部来源，减少无依据断言。赛事成绩、选手变动等条目尤为注重引用。</p>
+        </div>
+        <div class="card">
+          <h3>结构清晰</h3>
+          <p>页面采用统一的模板与信息框，无论查看哪个游戏分区，都能快速定位赛事时间、奖金池、战队名单等关键字段。</p>
+        </div>
+        <div class="card">
+          <h3>持续更新</h3>
+          <p>大型赛事期间更新频率很高，部分热门项目在赛段结束后数小时内就会同步对战记录与晋级情况。</p>
+        </div>
+        <div class="card">
+          <h3>多语言覆盖</h3>
+          <p>除英文外，还支持中文、韩语等语言版本，降低阅读门槛。中文分站在本地化与时效性上也在逐步完善。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 说明区：场景与使用提示 -->
+    <section>
+      <h2>适用场景与注意事项</h2>
+      <p>
+        对于想回顾某届赛事日程、对比选手历史战绩、或了解某款游戏的版本演变，liquipedia 通常能提供比搜索引擎碎片结果更系统的概览。但需留意：维基内容可能因编辑滞后而遗漏最新变动，尤其在交易期或阵容调整频繁的阶段，建议交叉核对官方公告或直播源。
+      </p>
+      <p>
+        另外，不同游戏分区的维护活跃度存在差异。头部项目（如《Dota 2》《CS》等）资料较为完备，部分冷门或已停更的游戏则可能长期未更新。查阅时留意页面顶部的最后编辑时间，可帮助判断信息时效。
+      </p>
+      <p>
+        如果你希望进一步了解站点编辑方式或查阅特定赛事记录，可以直接访问 <a href="https://space-liquipedia.com" class="inline-link">liquipedia</a>，首页提供了游戏索引与最新活动入口。
+      </p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section>
+      <h2>常见疑问摘要</h2>
+      <div class="faq-item">
+        <div class="faq-q">liquipedia 上的数据准确吗？</div>
+        <div class="faq-a">平台依赖社区编辑与来源引用，大多数活跃项目的数据经过多轮校对，但无法保证 100% 无误。建议在重要用途中对照原始来源。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">任何人都能编辑内容吗？</div>
+        <div class="faq-a">注册账号后即可参与编辑，但新增内容需遵循格式规范与引用要求。管理员会对明显错误或破坏行为进行回退。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">怎样快速找到特定比赛信息？</div>
+        <div class="faq-a">使用站内搜索或按游戏分区浏览。赛事页面通常包含小组赛对阵、淘汰赛树状图、选手数据等模块，结构比较统一。</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">移动端浏览体验如何？</div>
+        <div class="faq-a">页面采用响应式设计，手机浏览器下表格会自动折行或转为列表视图，核心信息基本可读。但编辑与复杂查询建议使用桌面端。</div>
+      </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <div class="footer-links">
+      <p>站点首页：<a href="https://space-liquipedia.com">liquipedia</a>  ·  内容基于公开维基协议，转载时请保留署名与来源链接。</p>
+      <p style="margin-top: 8px; font-size: 0.85rem; color: #8f9aa9;">本介绍页面仅为独立说明，与 liquipedia 运营方无隶属关系。</p>
+    </div>
+  </div>
+</body>
+</html>
